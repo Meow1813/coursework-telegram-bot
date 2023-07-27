@@ -1,6 +1,6 @@
 --liquibase formatted sql
 
---changeset meow:1
+--changeset meow:create_notification_task_table
 CREATE TABLE notification_task
 (
     Id SERIAL PRIMARY KEY,
